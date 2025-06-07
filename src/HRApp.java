@@ -26,6 +26,7 @@ public class HRApp {
 
         System.out.println("Total Salary: $" + eduDep.getTotalSalary());
         System.out.println("Average Salary: $" + eduDep.getAverageSalary());
+
         // Search an employee by ID
         System.out.println(eduDep.findEmployeeById(2));
         System.out.println(eduDep.findEmployeeById(20));

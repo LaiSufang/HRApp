@@ -49,8 +49,10 @@ public class Department {
                 return employee;
             }
         }
-        return null; // Return null if no employee found with the given ID
+//        return null; // Return null if no employee found with the given ID
+        throw new IllegalArgumentException("Employee with ID " + empId + " not found");
     }
+
 
     // method to return the total salary of all employees in the department:
     public double getTotalSalary() {
